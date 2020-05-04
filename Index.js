@@ -18,5 +18,5 @@ client.on('loggedOn', () => {
     console.log('This is Just a Demo , but , If You Need Help Just Join This Discord https://discord.gg/5GX3rdV');
 
     client.setPersona(SteamUser.EPersonaState.Online);
-    client.gamesPlayed(["Custom Game discord.gg/5GX3rdV",730,440]);
+    client.gamesPlayed(["Script Made By: discord.gg/5GX3rdV",730,440]);
 });
