@@ -12,12 +12,9 @@ const logInOptions = {
 
 client.logOn(logInOptions);
 
-client.on('Script is Correct', () => {
-    console.log('No Erros Find');
-    console.log('[Goigois1] Logging ');
-    
-    console.clear
-    console.cls
+client.logOn(logInOptions);
+
+client.on('loggedOn', () => {
     
     console.log('[Goigois1] Script Working');
     console.log('This is Just a Demo , but , If You Need Help Just Join This Discord https://discord.gg/5GX3rdV');
