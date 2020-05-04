@@ -12,8 +12,6 @@ const logInOptions = {
 
 client.logOn(logInOptions);
 
-client.logOn(logInOptions);
-
 client.on('loggedOn', () => {
     
     console.log('[Goigois1] Script Working');
